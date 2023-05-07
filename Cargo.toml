@@ -1,6 +1,6 @@
 [package]
 name = "random_lcg"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Pedro Alves <pedromfa98@gmail.com>"]
 description = "Simple lcg recursive random number generator"
