@@ -2,6 +2,12 @@
 name = "random_lcg"
 version = "0.1.0"
 edition = "2021"
+authors = ["Pedro Alves <pedromfa98@gmail.com>"]
+description = "Simple lcg recursive random number generator"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Pxdr0-A/random_lcg.git"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
