@@ -1,9 +1,9 @@
 [package]
 name = "random_lcg"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 authors = ["Pedro Alves <pedromfa98@gmail.com>"]
-description = "Simple lcg recursive random number generator"
+description = "Simple lcg random number generator"
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/Pxdr0-A/random_lcg.git"
