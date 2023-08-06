@@ -5,10 +5,13 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_works() {
-        let (next_val, val) = prelude::lcg(100u128);
-
-        println!("Next Value: {}", next_val);
-        println!("Value: {}", val);
+    fn lcg_example() {
+        let mut seed = 12345u128;
+        let mut val: f64;
+        for _ in 0..10 {
+            val = prelude::lcg(&mut seed);
+            println!("Value Update: {}", val);
+            println!("Seed Update: {}", seed);
+        }
     }
 }
