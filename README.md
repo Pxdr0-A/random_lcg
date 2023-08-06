@@ -1,6 +1,6 @@
 # Random LCG
 
-Extremely for generating random numbers with Linear Congruential Generators.
+Extremely simple library for generating random numbers with Linear Congruential Generators.
 
 For now, there is only one generator from the source:
 
