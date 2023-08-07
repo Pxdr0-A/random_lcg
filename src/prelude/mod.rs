@@ -1,4 +1,4 @@
-/// Returns a random number between 0 and 1 with 2^31 possibilities.
+/// Returns a random number between 0 and 1 with 2^31 different equal spaced values.
 /// 
 /// # Arguments
 /// 
