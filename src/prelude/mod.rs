@@ -1,6 +1,11 @@
-/// Returns a random number between 0 and 1.
+/// Returns a random number between 0 and 1 with 2^31 possibilities.
+/// 
+/// # Arguments
+/// 
+/// * `seed` - a mutable u128, with a certain initial value (seed), that will be changing throughout calls.
 ///
 /// # Example
+/// ```
 /// let mut seed = 12345u128;
 /// let mut val: f64;
 /// for _ in 0..10 {
@@ -8,6 +13,7 @@
 ///     println!("Value Update: {}", val);
 ///     println!("Seed Update: {}", seed);
 /// }
+/// ```
 pub fn lcg(seed: &mut u128) -> f64 {
     // Source ->
     // ANSI C: Watcom, Digital Mars, CodeWarrior, IBM VisualAge C/C++
