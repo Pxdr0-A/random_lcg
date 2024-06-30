@@ -6,7 +6,7 @@
 ///
 /// # Example
 /// ```
-/// use renplex::math::random::lcgf32;
+/// use random_lcg::prelude::*;
 /// 
 /// let mut seed = 12345u128;
 /// let mut val: f32;
@@ -36,7 +36,7 @@ pub fn lcgf32(seed: &mut u128) -> f32 {
 ///
 /// # Example
 /// ```
-/// use renplex::math::random::lcgf64;
+/// use random_lcg::prelude::*;
 /// 
 /// let mut seed = 12345u128;
 /// let mut val: f64;
@@ -58,8 +58,7 @@ pub fn lcgf64(seed: &mut u128) -> f64 {
 
 }
 
-/// Generates a random index from 0 to limit-1
-/// Returns random index (integer) between 0 and limit-1.
+/// Returns a random index (integer) between 0 and limit-1.
 /// 
 /// # Arguments
 /// 
@@ -68,7 +67,7 @@ pub fn lcgf64(seed: &mut u128) -> f64 {
 /// 
 /// # Example
 /// ```
-/// use renplex::math::random::lcgf32;
+/// use random_lcg::prelude::*;
 /// 
 /// let mut seed = 12345u128;
 /// let limit = 11;
