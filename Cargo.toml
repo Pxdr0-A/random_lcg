@@ -4,7 +4,6 @@ version = "0.3.0"
 edition = "2021"
 authors = ["Pedro Alves <pedromfa98@gmail.com>"]
 description = "Simple lcg random number generator"
-license = "MIT"
 license-file = "LICENSE"
 readme = "README.md"
 homepage = "https://github.com/Pxdr0-A/random_lcg.git"
